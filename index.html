@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Clairmont Auto Body · Montclair, NJ · Show us where it hurts</title>
+<meta name="description" content="Collision and dent repair at 2 Bloomfield Ave, Montclair, NJ. Mark the damage, add photos, and get a call back. We work with your insurance. 4.9 on Google.">
+<meta name="theme-color" content="#0b0c0e">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Clairmont Auto Body · Show us where it hurts">
+<meta property="og:description" content="Mark the damage, add photos, get a call back. Montclair, NJ.">
+<meta property="og:image" content="https://preview.localform.online/clairmont-auto-body-preview/og.jpg">
+<link rel="preload" href="fonts/unbounded-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-poster-tall.webp" media="(max-aspect-ratio: 9/10)">
+<link rel="preload" as="image" href="img/hero-poster-wide.webp" media="(min-aspect-ratio: 9/10)">
+<link rel="stylesheet" href="styles.css?v=22">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoBodyShop","name":"Clairmont Auto Body Inc","telephone":"+1-973-746-7472","address":{"@type":"PostalAddress","streetAddress":"2 Bloomfield Ave","addressLocality":"Montclair","addressRegion":"NJ","postalCode":"07042","addressCountry":"US"},"openingHours":["Mo-Fr 09:00-16:00","Sa 09:00-12:00"]}</script>
+</head>
+<body>
+<div class="topbar">Concept preview by <a href="https://localform.online" target="_blank" rel="noopener">Local Form</a><span class="desk-only"> · not the shop's official site</span></div>
+
+<header class="head" id="top">
+  <a class="brand" href="#top" aria-label="Clairmont Auto Body, back to top">
+    <span class="brand-mark" aria-hidden="true">C</span>
+    <span class="brand-name">Clairmont<small>Auto Body · Montclair</small></span>
+  </a>
+  <div class="head-actions">
+    <button class="sound" id="soundBtn" type="button" aria-pressed="false" aria-label="Sound off">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path class="wave" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="mute" d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <a class="btn btn-sm btn-red" href="tel:+19737467472"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg><span>Call</span></a>
+  </div>
+</header>
+
+<main>
+<!-- ===== THE GARAGE: sticky 3D stage shared by the tool and the repair story ===== -->
+<section class="garage" id="garage" aria-label="The paint, and how a repair goes">
+  <div class="stage" id="stage">
+    <div class="poster" aria-hidden="true"></div>
+    <canvas id="car" aria-label="A car under paint booth lights. Press the paint to make a dent, drag sideways to turn the car."></canvas>
+    <p class="cue" id="cue"><span class="cue-dot" aria-hidden="true"></span><span id="hintText" aria-live="polite">Press the paint</span></p>
+    <div class="caps" id="caps">
+      <article class="beat"><p class="beat-n">01 · Estimate</p><h2>Under the lights, every dent shows.</h2><p>We go over the whole car, mark each one and write it up panel by panel, so nothing gets missed.</p></article>
+      <article class="beat"><p class="beat-n">02 · Insurance</p><h2>We talk to the adjuster.</h2><p>"The office team worked with my insurance to get an adjuster and inspection." <span class="who">Olya, Google review</span></p></article>
+      <article class="beat"><p class="beat-n">03 · Parts</p><h2>Parts ordered fast.</h2><p>"Parts were ordered, received quickly and the work was done in just a few days." <span class="who">Google review summary</span></p></article>
+      <article class="beat"><p class="beat-n">04 · Body &amp; paint</p><h2>Straightened, primed, colour-matched.</h2><p>Dents come out. The panel goes to primer. Then the paint is matched to your car, not to a chart.</p></article>
+      <article class="beat"><p class="beat-n">05 · Done</p><h2>"Looks like new again!"</h2><p><span class="who">Jason, Google review</span></p><a class="btn btn-red" href="#estimate">Start my estimate</a></article>
+    </div>
+  </div>
+
+  <div class="hero" id="hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span>Collision &amp; dent repair · Montclair, NJ</p>
+      <h1 class="h1-in"><span class="ln"><span>Show us</span></span><span class="ln"><span>where it</span></span><span class="ln"><span><em>hurts.</em></span></span></h1>
+      <div class="hero-meta">
+        <span class="rating"><b>4.9</b><span class="stars" aria-hidden="true">★★★★★</span>on Google</span>
+      </div>
+    </div>
+    <div class="tool" id="tool">
+      <a class="btn btn-red" href="#estimate" id="toEstimate">Start my estimate</a>
+      <div class="swatches" id="swatches" role="radiogroup" aria-label="Paint colour">
+        <button type="button" role="radio" aria-checked="true" data-c="red" style="--s:#9d1620" aria-label="Red"></button>
+        <button type="button" role="radio" data-c="black" style="--s:#0d0e10" aria-label="Black"></button>
+        <button type="button" role="radio" data-c="white" style="--s:#F4F3EF" aria-label="White"></button>
+        <button type="button" role="radio" data-c="silver" style="--s:#B9BCC0" aria-label="Silver"></button>
+        <button type="button" role="radio" data-c="gray" style="--s:#55595e" aria-label="Gray"></button>
+        <button type="button" role="radio" data-c="blue" style="--s:#1d3f7a" aria-label="Blue"></button>
+        <button type="button" role="radio" data-c="green" style="--s:#2f4a3c" aria-label="Green"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="story" id="story" aria-hidden="true"></div>
+</section>
+
+<!-- ===== ESTIMATE ===== -->
+<section class="section estimate" id="estimate">
+  <div class="wrap">
+    <p class="eyebrow">Your estimate</p>
+    <h2 class="h2">Photos and a phone number.<br>That's all we need.</h2>
+
+    <div class="carstage" id="carstage" data-reveal>
+      <div class="carstage-head"><p class="dmg-h">Where's the damage?</p><p class="dmg-sub">Tap the car anywhere it's hurt. Drag to turn it, pinch to zoom.</p>
+        <div class="bodies" id="bodies" role="radiogroup" aria-label="Body type"><button type="button" role="radio" aria-checked="true" data-m="sedan">Sedan</button><button type="button" role="radio" aria-checked="false" data-m="coupe">Coupe</button><button type="button" role="radio" aria-checked="false" data-m="suv">SUV</button><button type="button" role="radio" aria-checked="false" data-m="truck">Truck</button></div></div>
+      <div class="carview" id="carview">
+        <canvas id="carCanvas" aria-label="3D car. Tap it to mark damage, drag sideways to turn it."></canvas>
+        <div class="pins" id="pins" aria-hidden="true"></div>
+        <div class="carview-load" id="carLoad"><span></span>Rolling the car in…</div>
+        <div class="carview-zoom"><button type="button" id="zoomIn" aria-label="Zoom in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button><button type="button" id="zoomOut" aria-label="Zoom out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
+        <div class="carview-turn"><button type="button" id="turnL" aria-label="Turn the car left"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><button type="button" id="turnR" aria-label="Turn the car right"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+      </div>
+    </div>
+
+    <div class="est-grid">
+      <aside class="dmg-card" id="dmgCard">
+        <p class="dmg-h">Marked so far</p>
+        
+        <div class="sheet" id="sheet" hidden>
+          <div class="sheet-head">
+            <span class="sheet-num" id="sheetNum">1</span>
+            <div><p class="sheet-label">Marked</p><p class="sheet-panel" id="sheetPanel">Front bumper</p></div>
+            <button type="button" class="sheet-x" id="sheetRemove" aria-label="Remove this panel">Remove</button>
+          </div>
+          <div class="chips" id="sevChips" role="radiogroup" aria-label="What happened here?">
+            <button type="button" role="radio" data-sev="scratch">Scratch</button>
+            <button type="button" role="radio" data-sev="dent" aria-checked="true">Dent</button>
+            <button type="button" role="radio" data-sev="crack">Cracked</button>
+            <button type="button" role="radio" data-sev="stuck">Stuck</button>
+          </div>
+        </div>
+        <p class="dmg-empty" id="dmgEmpty">Nothing marked yet.</p>
+        <p class="dmg-full" id="dmgFull" role="status" hidden>That's eight spots. Remove one to mark another, or tell us the rest in the note.</p>
+        <ol class="dmg-list" id="dmgList"></ol>
+        <details class="alt" id="altDiagram"><summary>Use a flat diagram instead</summary>
+        <svg id="diagram" viewBox="0 0 300 580" role="group" aria-label="Car seen from above, front at the top. Tap a panel to mark it.">
+          <text class="dg-t" x="150" y="12" text-anchor="middle">FRONT</text>
+          <g class="tyres"><rect x="20" y="96" width="14" height="40" rx="5"/><rect x="266" y="96" width="14" height="40" rx="5"/><rect x="20" y="432" width="14" height="40" rx="5"/><rect x="266" y="432" width="14" height="40" rx="5"/></g>
+          <path class="zone" data-zone="Front bumper" role="button" tabindex="0" aria-pressed="false" aria-label="Front bumper" d="M105 56 Q105 22 150 20 Q195 22 195 56 Z"/>
+          <path class="zone" data-zone="Hood" role="button" tabindex="0" aria-pressed="false" aria-label="Hood" d="M105 62 H195 V166 H105 Z"/>
+          <path class="zone glass" data-zone="Windshield" role="button" tabindex="0" aria-pressed="false" aria-label="Windshield" d="M105 172 H195 L187 212 H113 Z"/>
+          <path class="zone" data-zone="Roof" role="button" tabindex="0" aria-pressed="false" aria-label="Roof" d="M113 218 H187 V364 H113 Z"/>
+          <path class="zone glass" data-zone="Rear window" role="button" tabindex="0" aria-pressed="false" aria-label="Rear window" d="M113 370 H187 L195 402 H105 Z"/>
+          <path class="zone" data-zone="Trunk" role="button" tabindex="0" aria-pressed="false" aria-label="Trunk" d="M105 408 H195 V498 H105 Z"/>
+          <path class="zone" data-zone="Rear bumper" role="button" tabindex="0" aria-pressed="false" aria-label="Rear bumper" d="M105 504 L195 504 Q195 546 150 548 Q105 546 105 504 Z"/>
+          <path class="zone" data-zone="Front fender · driver side" role="button" tabindex="0" aria-pressed="false" aria-label="Front fender · driver side" d="M99 62 L52 62 Q38 62 38 76 L38 92 A24 24 0 0 1 38 140 L38 168 L99 168 Z"/>
+          <path class="zone" data-zone="Front fender · passenger side" role="button" tabindex="0" aria-pressed="false" aria-label="Front fender · passenger side" d="M201 62 L248 62 Q262 62 262 76 L262 92 A24 24 0 0 0 262 140 L262 168 L201 168 Z"/>
+          <path class="zone" data-zone="Front door · driver side" role="button" tabindex="0" aria-pressed="false" aria-label="Front door · driver side" d="M38 174 H99 V288 H38 Z"/>
+          <path class="zone" data-zone="Front door · passenger side" role="button" tabindex="0" aria-pressed="false" aria-label="Front door · passenger side" d="M262 174 H201 V288 H262 Z"/>
+          <path class="zone" data-zone="Rear door · driver side" role="button" tabindex="0" aria-pressed="false" aria-label="Rear door · driver side" d="M38 294 H99 V398 H38 Z"/>
+          <path class="zone" data-zone="Rear door · passenger side" role="button" tabindex="0" aria-pressed="false" aria-label="Rear door · passenger side" d="M262 294 H201 V398 H262 Z"/>
+          <path class="zone" data-zone="Rear quarter panel · driver side" role="button" tabindex="0" aria-pressed="false" aria-label="Rear quarter panel · driver side" d="M99 404 L38 404 L38 428 A24 24 0 0 1 38 476 L38 486 Q38 500 52 500 L99 500 Z"/>
+          <path class="zone" data-zone="Rear quarter panel · passenger side" role="button" tabindex="0" aria-pressed="false" aria-label="Rear quarter panel · passenger side" d="M201 404 L262 404 L262 428 A24 24 0 0 0 262 476 L262 486 Q262 500 248 500 L201 500 Z"/>
+          <g id="zoneNums" aria-hidden="true"></g>
+          <text class="dg-t" x="68" y="524" text-anchor="middle">DRIVER</text><text class="dg-t" x="232" y="524" text-anchor="middle">PASSENGER</text>
+        </svg>
+        </details>
+      </aside>
+
+      <form class="form" id="estForm" novalidate>
+        <fieldset class="photos">
+          <legend>Add photos <span class="opt">(they stay on your phone in this preview)</span></legend>
+          <div class="shots" id="shots">
+            <label class="shot" data-k="front"><input type="file" accept="image/*" capture="environment"><span class="shot-art" data-art="front"></span><span class="shot-t">Front corner</span></label>
+            <label class="shot" data-k="rear"><input type="file" accept="image/*" capture="environment"><span class="shot-art" data-art="rear"></span><span class="shot-t">Rear corner</span></label>
+            <label class="shot" data-k="close"><input type="file" accept="image/*" capture="environment"><span class="shot-art" data-art="close"></span><span class="shot-t">Close-up of damage</span></label>
+            <label class="shot" data-k="vin"><input type="file" accept="image/*" capture="environment"><span class="shot-art" data-art="vin"></span><span class="shot-t">VIN sticker (driver door)</span></label>
+          </div>
+        </fieldset>
+
+        <div class="fields">
+          <label class="f"><span>Your name *</span><input name="name" type="text" autocomplete="name" required></label>
+          <label class="f"><span>Phone *</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required></label>
+          <label class="f f-wide"><span>Year, make and model</span><input name="car" type="text" placeholder="e.g. 2021 Honda Accord"></label>
+          <label class="f"><span>What happened?</span>
+            <select name="how">
+              <option>Someone hit me</option><option>I hit something</option><option>Hit and run</option><option>Found it parked</option><option>Weather (hail, tree, snow)</option><option>Something else</option>
+            </select></label>
+          <label class="f"><span>Can you drive it?</span>
+            <select name="drive"><option>Yes</option><option>No, it needs a tow</option><option>Not sure</option></select></label>
+          </div>
+        <details class="more"><summary>Add insurance details and a note (optional)</summary>
+        <div class="fields">
+          <label class="f"><span>Insurance company (optional)</span><input name="ins" type="text" autocomplete="off"></label>
+          <label class="f"><span>Claim number (optional)</span><input name="claim" type="text" autocomplete="off"></label>
+          <label class="f"><span>Best time to call</span>
+            <select name="when"><option>Morning</option><option>Afternoon</option><option>Any time</option></select></label>
+          <label class="f f-wide"><span>Anything else?</span><textarea name="notes" rows="3"></textarea></label>
+        </div>
+        </details>
+        <button class="btn btn-red btn-block" type="submit">Get my estimate</button>
+        <p class="fine">Preview only. This form doesn't send anything.</p>
+      </form>
+    </div>
+
+    <div class="confirm" id="confirm" hidden tabindex="-1">
+      <p class="eyebrow">Request ready</p>
+      <h3 id="confirmTitle">Thanks.</h3>
+      <p id="confirmBody"></p>
+      <p class="fine">Preview only: nothing was sent. On the real site, the shop gets this with your photos and calls you back.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHAT WE FIX ===== -->
+<section class="section fix" id="fix">
+  <div class="wrap">
+    <p class="eyebrow">What we fix</p>
+    <h2 class="h2">From a bumper scuff<br>to a hood and grill.</h2>
+    <ul class="fix-list">
+      <li data-reveal><span class="fix-n">01</span><h3>Collision repair</h3><p>Front ends, rear ends, side hits. Straightened and put back right.</p></li>
+      <li data-reveal><span class="fix-n">02</span><h3>Dents &amp; doors</h3><p>Door dings, hit-and-run dents, creased panels.</p></li>
+      <li data-reveal><span class="fix-n">03</span><h3>Bumpers</h3><p>Scratched, cracked or hanging. The repair customers mention most.</p></li>
+      <li data-reveal><span class="fix-n">04</span><h3>Paint &amp; colour match</h3><p>Matched to your car so the new panel disappears.</p></li>
+      <li data-reveal><span class="fix-n">05</span><h3>Insurance claims</h3><p>We work directly with your insurance company and the adjuster.</p></li>
+      <li data-reveal><span class="fix-n">06</span><h3>Parts</h3><p>Ordered fast so your car isn't sitting.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== WORK ===== -->
+<section class="section work" id="work">
+  <div class="wrap">
+    <p class="eyebrow">In the shop</p>
+    <h2 class="h2">Daily drivers.<br>And the odd Ferrari.</h2>
+  </div>
+  <div class="wrap" data-reveal>
+    <div class="slider" id="baSlider" style="--x:50%">
+      <img src="img/ba-after-800.webp" srcset="img/ba-after-800.webp 800w, img/ba-after-1400.webp 1400w" sizes="(min-width:980px) 900px, 100vw" alt="Front bumper after the repair" loading="lazy" width="800" height="600">
+      <div class="slider-before"><img src="img/ba-before-800.webp" srcset="img/ba-before-800.webp 800w, img/ba-before-1400.webp 1400w" sizes="(min-width:980px) 900px, 100vw" alt="Front bumper before the repair" loading="lazy" width="800" height="600"></div>
+      <span class="slider-tag l">Before</span><span class="slider-tag r">After</span>
+      <span class="slider-line" aria-hidden="true"><span class="slider-knob"><svg viewBox="0 0 24 24"><path d="M9 6l-5 6 5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+      <input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
+    </div>
+  </div>
+  <div class="reel" tabindex="0" aria-label="Photos from the shop">
+    <figure><img src="img/ferrari-800.webp" alt="Black Ferrari with gold stripes at the shop" loading="lazy" width="800" height="1067"></figure>
+    <figure><img src="img/frame-rack-800.webp" alt="White sedan on the frame rack inside the shop" loading="lazy" width="800" height="600"></figure>
+    <figure><img src="img/rolls-800.webp" alt="Black convertible Rolls-Royce" loading="lazy" width="800" height="512"></figure>
+    <figure><img src="img/corvette-800.webp" alt="Blue Corvette in the lot" loading="lazy" width="800" height="600"></figure>
+  </div>
+  <p class="wrap credit">Photos from Clairmont Auto Body's Google listing.</p>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="section reviews" id="reviews">
+  <div class="wrap">
+    <p class="eyebrow">4.9 on Google</p>
+    <h2 class="h2">"Never ever have I had a better experience at an autobody shop."</h2>
+    <p class="who big">Dee, after a hit and run</p>
+    <div class="rev-grid">
+      <blockquote class="rev" data-reveal><p>Mike, the owner and his staff are excellent. I came with an insurance claim from a bumper scratch, the office team worked with my insurance to get an adjuster and inspection, ordered the parts…</p><cite>Olya</cite></blockquote>
+      <blockquote class="rev" data-reveal><p>I unfortunately crashed my car and severely damaged the hood and grill… The front desk work, Jodi was a pleasure to work with.</p><cite>Matthew</cite></blockquote>
+      <blockquote class="rev" data-reveal><p>Superfast turnaround time. High-end quality work could not be more pleased with the job.</p><cite>Anthony</cite></blockquote>
+      <blockquote class="rev" data-reveal><p>Brought our new car with minor damage to the door and paint along the driver's side… Looks like new again!</p><cite>Jason</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VISIT ===== -->
+<section class="section visit" id="visit">
+  <div class="wrap visit-grid">
+    <div>
+      <p class="eyebrow">Visit</p>
+      <h2 class="h2">2 Bloomfield Ave,<br>Montclair.</h2>
+      <p class="addr">2 Bloomfield Ave, Montclair, NJ 07042<br>Look for the red banner.</p>
+      <table class="hours">
+        <tr><th>Mon–Fri</th><td>9am – 4pm</td></tr>
+        <tr><th>Saturday</th><td>9am – 12pm</td></tr>
+        <tr><th>Sunday</th><td>Closed</td></tr>
+      </table>
+      <p class="fine">Hours from Google. Call to confirm.</p>
+      <div class="tool-row">
+        <a class="btn btn-red" href="tel:+19737467472"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg>Call (973) 746-7472</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=Clairmont+Auto+Body+2+Bloomfield+Ave+Montclair+NJ+07042" target="_blank" rel="noopener">Directions</a>
+      </div>
+    </div>
+    <figure class="visit-photo" data-reveal><img src="img/storefront-800.webp" srcset="img/storefront-800.webp 800w, img/storefront-1400.webp 1400w" sizes="(min-width:900px) 45vw, 100vw" alt="Clairmont Auto Body building with the flag out front" loading="lazy" width="800" height="602"></figure>
+  </div>
+  <div class="wrap map">
+    <iframe title="Map to Clairmont Auto Body" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1sClairmont+Auto+Body+2+Bloomfield+Ave+Montclair+NJ+07042!6i16"></iframe>
+  </div>
+  <figure class="banner-photo wrap" data-reveal><img src="img/banner-800.webp" srcset="img/banner-800.webp 800w, img/banner-1400.webp 1400w" sizes="100vw" alt="Red Clairmont Auto Body banner on the fence" loading="lazy" width="800" height="600"></figure>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot-brand">Clairmont Auto Body Inc</p>
+    <p>2 Bloomfield Ave, Montclair, NJ 07042 · <a href="tel:+19737467472">(973) 746-7472</a></p>
+    <p class="fine">Photos from Clairmont Auto Body's Google listing. Car models: "Generic Sedan Car", "Generic Sport Coupé Car" and "MMC Generic Small SUV Car" by <a href="https://sketchfab.com/mmcworks" target="_blank" rel="noopener">MMC Works</a>; "American pickup truck" by <a href="https://sketchfab.com/local.yany" target="_blank" rel="noopener">local.yany</a>. All <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, modified.</p>
+    <p class="fine">Preview by <a href="https://localform.online" target="_blank" rel="noopener">Local Form</a></p>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="stickyCta"><a class="btn btn-red btn-block" href="#estimate">Start my estimate</a></div>
+
+<script src="app.js?v=23" type="module"></script>
+<script>/* lf-open: counts a tagged preview link being opened (?r=). No cookies. Local Form */(function(){try{var r=new URLSearchParams(location.search).get('r');if(!r||!navigator.sendBeacon||sessionStorage.getItem('lf-open'))return;sessionStorage.setItem('lf-open','1');navigator.sendBeacon('https://localform.online/api/open',JSON.stringify({r:r,s:location.pathname.split('/')[1]||location.hostname,d:matchMedia('(pointer:coarse)').matches?'phone':'desktop'}))}catch(e){}})();</script>
+</body>
+</html>
